@@ -1,0 +1,128 @@
+/* Redefinir margem e preenchimento padrão */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Defina a cor de fundo e a cor do texto para o corpo */
+body {
+    background-color: #f2f2f2;
+    color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* Estilizar o cabeçalho */
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+li {
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #666;
+}
+
+#revendedor-bt {
+    font-weight: bold;
+}
+
+/* Estilize a seção principal */
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+aside {
+    flex-basis: 40%;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+span {
+    color: #0019fc;
+}
+
+p {
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+form input[type="submit"] {
+    background-color: #2e51c5;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif;
+}
+
+
+form {
+    margin-bottom: 20px;
+}
+
+
+input[type="text"],
+input[type="email"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #445bdb;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Estilize a seção do artigo */
+article {
+    flex-basis: 55%;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+
